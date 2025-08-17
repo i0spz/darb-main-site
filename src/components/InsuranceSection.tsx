@@ -3,6 +3,12 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { translations } from "@/lib/translations";
+import tkafulLogo from "@/assets/takaful-logo.png";
+import OQLogo from "@/assets/OQIC-Logo.png";
+import OMUTDLogo from "@/assets/OMUTD-insu-logo.png";
+import newindiaomanLogo from "@/assets/india-insu-logo.png";
+import iranLogo from "@/assets/Iran_Insurance-logo.png"; 
+import wataniyaLogo from "@/assets/wataniya-logo.png"; 
 
 const InsuranceSection = () => {
   const { language } = useLanguage();
@@ -12,32 +18,32 @@ const InsuranceSection = () => {
     {
       name: "Takaful Oman Insurance Company",
       url: "https://www.takafuloman.om",
-      backgroundImage: "src/assets/takaful-logo.png"
+      backgroundImage: tkafulLogo
     },
     {
       name: "OQ Insurance Company",
       url: "https://oqic.com",
-      backgroundImage: "/src/assets/OQIC-Logo.png"
+      backgroundImage: OQLogo
     },
     {
       name: "Oman United Insurance",
       url: "https://www.omanutd.com",
-      backgroundImage: "src/assets/OMUTD-insu-logo.png"
+      backgroundImage: OMUTDLogo
     },
     {
       name: "Newindiaoman Insurance",
       url: "https://www.newindiaoman.com",
-      backgroundImage: "src/assets/india-insu-logo.png"
+      backgroundImage: newindiaomanLogo
     },
     {
       name: "Iran Insurance",
       url: "http://bimehir.ae",
-      backgroundImage: "src/assets/Iran_Insurance-logo.png"
+      backgroundImage: iranLogo
     },
     {
       name: "Wataniya Insurance",
       url: "#",
-      backgroundImage: "src/assets/wataniya-logo.png"
+      backgroundImage: wataniyaLogo
     }
   ];
 
