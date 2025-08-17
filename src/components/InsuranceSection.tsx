@@ -17,7 +17,7 @@ const InsuranceSection = () => {
     {
       name: "OQ Insurance Company",
       url: "https://oqic.com",
-      backgroundImage: "src/assets/OQIC-Logo.png"
+      backgroundImage: "/src/assets/OQIC-Logo.png"
     },
     {
       name: "Oman United Insurance",
