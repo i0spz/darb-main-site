@@ -3,6 +3,8 @@ import { ArrowRight, Zap } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { translations } from "@/lib/translations";
 
+import backGround from "@/assets/bg-2.png";
+
 const HeroSection = () => {
   const { language } = useLanguage();
   const t = translations[language];
@@ -10,7 +12,8 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[80vh] flex items-center justify-center bg-gradient-hero overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22 width=%2232%22 height=%2232%22 fill=%22none%22 stroke=%22rgba(255,255,255,0.1)%22%3e%3cpath d=%22m0 .5 32 32M32 .5 0 32%22/%3e%3c/svg%3e')] opacity-20"></div>
+      <div className="absolute inset-0 bg-cover bg-black/60 bg-center bg-no-repeat blur-sm"
+  style={{ backgroundImage: `url(${backGround})` }} ></div>
       
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto animate-slide-up">

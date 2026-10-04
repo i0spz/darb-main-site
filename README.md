@@ -1,73 +1,162 @@
-# Welcome to your Lovable project
+<div align="center">
 
-## Project info
+  <img src="src/assets/darb-logo.png" alt="DARB Logo" width="160" />
 
-**URL**: https://lovable.dev/projects/90af5759-c6ce-40e6-ba93-b5ec3caaa4fb
+  # درب لخدمات المساعدة على الطريق | DARB Roadside Assistance
+  
+  **خدمات المساعدة على الطريق في جميع أنحاء سلطنة عُمان على مدار الساعة (24/7)**  
+  *Professional 24/7 roadside emergency assistance platform across the Sultanate of Oman.*
 
-## How can I edit this code?
+  [![React](https://img.shields.io/badge/React-18.3-blue.svg?logo=react)](https://reactjs.org/)
+  [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF.svg?logo=vite)](https://vitejs.dev/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-38B2AC.svg?logo=tailwind-css)](https://tailwindcss.com/)
+  [![UI Components](https://img.shields.io/badge/shadcn%2Fui-Radix-black)](https://ui.shadcn.com/)
+  [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-There are several ways of editing your application.
+</div>
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/90af5759-c6ce-40e6-ba93-b5ec3caaa4fb) and start prompting.
+## 📖 جدول المحتويات / Table of Contents
+- [نبذة عن المشروع / Overview](#-نبذة-عن-المشروع--overview)
+- [المميزات الرئيسية / Key Features](#-المميزات-الرئيسية--key-features)
+- [الخدمات المتاحة / Available Services](#-الخدمات-المتاحة--available-services)
+- [شركاء التأمين / Insurance Partners](#-شركاء-التأمين--insurance-partners)
+- [التقنيات المستخدمة / Tech Stack](#-التقنيات-المستخدمة--tech-stack)
+- [متطلبات التشغيل والتثبيت / Installation & Setup](#-متطلبات-التشغيل-والتثبيت--installation--setup)
+- [هيكل المشروع / Project Structure](#-هيكل-المشروع--project-structure)
+- [التواصل والدعم / Emergency Contact](#-التواصل-والدعم--emergency-contact)
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🌟 نبذة عن المشروع / Overview
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**درب (DARB)** هي منصة ويب عصرية متطورة مخصصة لتقديم خدمات المساعدة الطارئة للمركبات على مدار 24 ساعة طوال أيام الأسبوع في مختلف محافظات ومناطق سلطنة عُمان. صُممت المنصة لتوفير تجربة استجابة سريعة وسلسة للسائقين مع إمكانية الوصول الفوري لخطوط الطوارئ والربط مع شركات التأمين المعتمدة.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**DARB** is a modern, responsive web application offering 24/7 roadside assistance across Oman. Designed with performance and ease-of-use in mind, it provides motorists with immediate access to rescue services, quick dispatch hotlines, and trusted insurance partnerships.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ✨ المميزات الرئيسية / Key Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- 🌐 **دعم كامل للغتين (العربية والإنجليزية)** مع توفير اتجاه قراءة ملائم (RTL/LTR).
+- 🚨 **اتصال طوارئ فوري بنقرة واحدة** للوصول السريع إلى فرق الدعم الميدانية.
+- 🎨 **تصميم عصري وجذاب (Dark Modern Aesthetic)** مدعوم بمؤثرات بصرية وتوهج تفاعلي سلس.
+- 📱 **متجاوب بالكامل (Fully Responsive)** لجميع الأجهزة والهواتف الذكية والأجهزة اللوحية.
+- 🤝 **ربط مع شركات التأمين الرائدة** في سلطنة عُمان لتسهيل الإجراءات.
+- ⚡ **سرعة استجابة وأداء فائق** بفضل Vite و React و Tailwind CSS.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 🛠️ الخدمات المتاحة / Available Services
+
+| الخدمة | Service | الوصف / Description |
+|---|---|---|
+| **إصلاح الأعطال الطارئة** | Emergency Repairs | صيانة سريعة وفورية في موقع العطل لإعادتك إلى الطريق بأمان. |
+| **اشتراك وتشغيل البطارية** | Jump Start Service | حل مشاكل البطاريات الفارغة وإعادة تشغيل السيارة مع فحص نظام الشحن. |
+| **فتح المركبات المقفلة** | Lockout Assistance | فتح أبواب السيارات بأمان واحترافية وبدون أي خدوش أو أضرار. |
+| **توصيل الوقود** | Fuel Delivery | توصيل البنزين أو الديزل مباشرة إلى موقعك لاستكمال رحلتك. |
+
+---
+
+## 🛡️ شركاء التأمين / Insurance Partners
+
+تتعاون منصة **درب** مع نخبة من كبرى شركات التأمين في سلطنة عُمان لتوفير تغطية مساعدة سلسة وموثوقة:
+- 🏛️ الشركة العمانية المتحدة للتأمين (Oman United Insurance)
+- 🏛️ الشركة العمانية القطرية للتأمين (OQIC)
+- 🏛️ شركة التأمين الإيرانية (Iran Insurance Company)
+- 🏛️ نيو إنديا للتأمين (The New India Assurance)
+- 🏛️ تكافل عُمان (Takaful Oman)
+- 🏛️ المدينة تكافل / الوطنية (Al Madina Takaful)
+
+---
+
+## 💻 التقنيات المستخدمة / Tech Stack
+
+- **الواجهة الأمامية (Frontend):** React 18, TypeScript
+- **أداة البناء والتطوير (Bundler/Dev Tool):** Vite 5
+- **التصميم والتنسيق (Styling):** Tailwind CSS, CSS Variables, Tailwind Animate
+- **مكتبة المكونات (UI Components):** Radix UI (shadcn/ui primitives)
+- **الأيقونات (Icons):** Lucide React
+- **إدارة الحالة والنصوص (Context):** React Context API (اللغة والترجمة)
+
+---
+
+## 🚀 متطلبات التشغيل والتثبيت / Installation & Setup
+
+### المتطلبات الأساسية (Prerequisites)
+- [Node.js](https://nodejs.org/) (الإصدار 18 أو أحدث)
+- مدير الحزم npm أو bun
+
+### خطوات التشغيل:
+
+1. **استنساخ المستودع (Clone the repository):**
+   ```bash
+   git clone https://github.com/i0spz/darb-main-site.git
+   cd darb-main-site
+   ```
+
+2. **تثبيت الحزم والاعتماديات (Install dependencies):**
+   ```bash
+   npm install
+   ```
+
+3. **تشغيل الخادم المحلي للتطوير (Start development server):**
+   ```bash
+   npm run dev
+   ```
+   سيعمل المشروع افتراضياً على: `http://localhost:8080/`
+
+4. **بناء المشروع للإنتاج (Build for production):**
+   ```bash
+   npm run build
+   ```
+
+5. **معاينة البناء الإنتاجي (Preview production build):**
+   ```bash
+   npm run preview
+   ```
+
+---
+
+## 📁 هيكل المشروع / Project Structure
+
+```plaintext
+darb-roadside-glow-main/
+├── public/                 # الملفات الثابتة والرموز (Favicons, Robots)
+├── src/
+│   ├── assets/             # شعارات الشركاء والصور والخلفيات
+│   ├── components/         # مكونات واجهة المستخدم وأقسام الصفحة
+│   │   ├── ui/             # مكونات shadcn/ui الأساسية (Button, Card, Dialog...)
+│   │   ├── Header.tsx      # الشريط العلوي مع محول اللغة
+│   │   ├── HeroSection.tsx # واجهة الاستقبال وطلب المساعدة المباشر
+│   │   ├── ServicesSection.tsx # قسم استعراض الخدمات
+│   │   ├── NumbersSection.tsx  # قسم إحصائيات الإنجازات
+│   │   ├── InsuranceSection.tsx # قسم شركات التأمين الشريكة
+│   │   └── Footer.tsx      # تذييل الصفحة وبيانات التواصل
+│   ├── contexts/           # إدارة حالة اللغة والاتجاه (LanguageContext)
+│   ├── lib/                # الترجمات والدوال المساعدة (translations.ts, utils.ts)
+│   ├── pages/              # صفحات التطبيق (Index.tsx, NotFound.tsx)
+│   ├── App.tsx             # نقطة الدخول والموجهات
+│   ├── main.tsx            # تشغيل React
+│   └── index.css           # تعريف ألوان التصميم والقواعد العامة
+├── index.html              # ملف الصفحة الرئيسي
+├── package.json            # الاعتماديات والأوامر
+├── tailwind.config.ts      # إعدادات Tailwind وتخصيص الثيم
+└── vite.config.ts          # إعدادات Vite ومسارات الاستيراد
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📞 التواصل والدعم / Emergency Contact
 
-**Use GitHub Codespaces**
+- 📍 **الموقع:** مسقط، سلطنة عُمان (Muscat, Sultanate of Oman)
+- 📞 **خط الطوارئ والمساعدة (24/7):** `+968 2479 0888`
+- 🌐 **الموقع الإلكتروني:** متوفر عبر منصة درب
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/90af5759-c6ce-40e6-ba93-b5ec3caaa4fb) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+<div align="center">
+  <sub>© 2025 درب لخدمات المساعدة على الطريق (DARB Roadside Assistance). جميع الحقوق محفوظة.</sub>
+</div>

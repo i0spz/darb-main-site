@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Users, Clock } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { translations } from "@/lib/translations";
-import numbersBackground from "@/assets/numbers-bg.jpg";
+import numbersBackground from "@/assets/bg-3.png";
 
 const NumbersSection = () => {
   const { language } = useLanguage();
@@ -11,7 +11,7 @@ const NumbersSection = () => {
   const stats = [
     {
       icon: Users,
-      number: "10,000+",
+      number: "24566+",
       label: t.happyCustomers,
       description: t.happyCustomersDesc
     },
@@ -53,7 +53,7 @@ const NumbersSection = () => {
             {stats.map((stat, index) => (
               <Card 
                 key={index} 
-                className="bg-gradient-card border-border hover:border-primary/50 transition-all duration-300 hover:shadow-card group"
+                className="bg-gradient-card border-border hover:border-primary/50 transition-all duration-300 hover:shadow-card group cursor-pointer"
               >
                 <CardContent className="p-8">
                   <div className={`flex items-center ${language === 'ar' ? 'space-x-reverse' : ''} space-x-6`}>

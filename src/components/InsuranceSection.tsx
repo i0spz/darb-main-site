@@ -15,7 +15,7 @@ const InsuranceSection = () => {
   const t = translations[language];
 
   const insuranceCompanies = [
-    {
+/*     {
       name: "Takaful Oman Insurance Company",
       url: "https://www.takafuloman.om",
       backgroundImage: tkafulLogo
@@ -24,12 +24,12 @@ const InsuranceSection = () => {
       name: "OQ Insurance Company",
       url: "https://oqic.com",
       backgroundImage: OQLogo
-    },
+    }, */
     {
       name: "Oman United Insurance",
       url: "https://www.omanutd.com",
       backgroundImage: OMUTDLogo
-    },
+    }/* ,
     {
       name: "Newindiaoman Insurance",
       url: "https://www.newindiaoman.com",
@@ -44,7 +44,7 @@ const InsuranceSection = () => {
       name: "Wataniya Insurance",
       url: "#",
       backgroundImage: wataniyaLogo
-    }
+    } */
   ];
 
   return (
